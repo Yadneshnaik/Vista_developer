@@ -1,77 +1,83 @@
 .home {
-    background-color: #f9f9f9;
-    color: #333;
-    padding: 40px;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Vibrant gradient background */
+    color: #fff;
+    padding: 60px 20px;
 }
 
-.home h1 {
+.home-title {
     font-size: 3rem;
+    font-weight: 700;
     margin-bottom: 20px;
-    color: #007bff;
 }
 
-.home p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
+.home-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    font-weight: 300;
 }
 
-.about-us, .services-overview, .cta {
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
     margin-top: 30px;
+}
+
+.feature {
+    background: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 10px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.about-us h2, .services-overview h2, .cta h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    color: #007bff;
-}
-
-.services-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    margin-top: 20px;
-}
-
-.service-item {
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    background-color: #fefefe;
-    transition: transform 0.3s ease;
-}
-
-.service-item:hover {
-    transform: translateY(-5px);
+    max-width: 300px;
+    text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.service-item h3 {
+.feature h3 {
     font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #333;
+    margin-bottom: 15px;
+    font-weight: 600;
 }
 
-.service-item p {
+.feature p {
     font-size: 1rem;
-    color: #555;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
 
 .cta .btn {
-    display: inline-block;
     padding: 10px 20px;
-    font-size: 1rem;
-    color: white;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-primary {
     background-color: #007bff;
+    color: #fff;
     border: none;
-    border-radius: 5px;
-    text-decoration: none;
     transition: background-color 0.3s ease;
 }
 
-.cta .btn:hover {
+.btn-primary:hover {
     background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #e25822;
 }
