@@ -1,0 +1,29 @@
+.contact {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}

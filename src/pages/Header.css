@@ -1,0 +1,23 @@
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f8f9fa !important;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #f8f9fa !important;
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #f8f9fa;
+}

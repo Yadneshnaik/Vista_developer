@@ -1,0 +1,29 @@
+.services {
+    background-color: #f8f9fa;
+}
+
+.services h2 {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    color: #343a40;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}

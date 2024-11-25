@@ -1,0 +1,60 @@
+.service {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.service .web {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.bar {
+    display: block;
+    height: 2px;
+    width: 50%;
+    background-color: #007bff;
+    margin: 10px auto;
+}
+
+.card h1 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.card p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+
