@@ -3,8 +3,8 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <footer className="bg-dark text-white text-center py-3">
-            <p>&copy; 2024 IT Company. All rights reserved.</p>
+        <footer className="footer bg-dark text-white text-center py-3">
+            <p>&copy; 2024 Vista Developer. All rights reserved.</p>
         </footer>
     );
 };
