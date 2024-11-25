@@ -1,65 +1,9 @@
-/* Footer Styling */
-.ftco-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 40px 0;
-    position: relative;text-align: center;
-    z-index: 10;
+footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+    font-size: 0.9rem;
 }
 
-.ftco-footer .overlay {
-    background: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-
-.ftco-footer .ftco-footer-widget h2 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-
-.ftco-footer .footer-content {
-    margin-bottom: 15px;
-}
-
-.ftco-footer .icon {
-    font-size: 20px;
-    margin-right: 10px;
-}
-
-.ftco-footer .footer-content a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.ftco-footer .footer-content a:hover {
-    text-decoration: underline;
-}
-
-/* Fixed Footer at Bottom */
-.fixed-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    z-index: 100;
-    background-color: #333;
-}
-
-/* Responsive design */
-@media (max-width: 767px) {
-    .ftco-footer .row {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .ftco-footer .footer-content {
-        margin-bottom: 10px;
-    }
+footer p {
+    margin: 0;
 }
