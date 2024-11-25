@@ -21,3 +21,33 @@
 .navbar-toggler-icon {
     background-color: #f8f9fa;
 }
+
+/* Responsive Design for Mobile View */
+@media (max-width: 992px) {
+    /* Make the navbar full-width and align center for smaller screens */
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    /* Adjust the links styling for mobile */
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    /* Ensure the navbar is displayed at the top of the page */
+    .navbar-toggler {
+        border-color: #fff;
+    }
+}
+
+/* For larger screens, navbar will span the full width and links will be aligned to the right */
+@media (min-width: 992px) {
+    .navbar-nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 15px;
+    }
+}
