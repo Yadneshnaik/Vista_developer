@@ -9,7 +9,7 @@ const Services = () => {
         <div className="services container py-5">
             <h2 className="text-center mb-4">Our Services</h2>
             <div className="row">
-                <div className="col-md-4">
+                <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                     <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">Web Development</h5>
@@ -23,7 +23,7 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                     <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">App Development</h5>
@@ -37,7 +37,7 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                     <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">IT Consultancy</h5>
@@ -51,7 +51,7 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                     <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">Digital Marketing</h5>
@@ -65,7 +65,7 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                     <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">Graphic Design</h5>
