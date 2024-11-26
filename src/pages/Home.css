@@ -1,73 +1,76 @@
-/* Home Component Styling */
+/* General Styling */
 .home {
     background: linear-gradient(to right, #6a11cb, #2575fc);
     color: #fff;
-    padding: 60px 20px;
-    text-align: center;
+    padding: 50px 20px;
     font-family: 'Arial', sans-serif;
+}
+
+.home-content {
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 /* Title and Subtitle */
 .home-title {
-    font-size: 3.5rem;
-    font-weight: 700;
+    font-size: 3rem;
+    font-weight: bold;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
 
 .home-subtitle {
-    font-size: 1.3rem;
-    margin-bottom: 40px;
+    font-size: 1.2rem;
     line-height: 1.6;
-    font-weight: 300;
+    margin-bottom: 40px;
 }
 
 /* Features Section */
 .features {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 30px;
+    gap: 20px;
+    justify-content: center; /* Center cards horizontally */
+    margin-bottom: 50px;
 }
 
 .feature {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.15);
     padding: 20px;
     border-radius: 10px;
+    width: 100%;
     max-width: 300px;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .feature h3 {
     font-size: 1.5rem;
-    margin-bottom: 15px;
-    font-weight: 600;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .feature p {
     font-size: 1rem;
     line-height: 1.5;
-    font-weight: 300;
 }
 
 .feature:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
 
 /* Why Choose Us Section */
 .why-choose-us {
-    margin-top: 50px;
-    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .why-choose-us h2 {
     font-size: 2.5rem;
-    margin-bottom: 15px;
-    font-weight: 700;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .why-choose-us p {
@@ -78,37 +81,32 @@
 .reasons {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 20px;
+    justify-content: center; /* Center cards horizontally */
 }
 
 .reason {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 10px;
+    width: 100%;
     max-width: 300px;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.reason h4 {
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 10px;
+/* CTA Section */
+.cta {
+    text-align: center;
+    margin-top: 30px;
 }
 
-.reason p {
-    font-size: 0.9rem;
-    line-height: 1.4;
-    font-weight: 300;
-}
-
-/* Call-to-Action Buttons */
 .cta .btn {
     padding: 10px 20px;
+    margin: 10px;
     border-radius: 30px;
-    font-size: 1.1rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: bold;
     text-transform: uppercase;
 }
 
@@ -134,77 +132,32 @@
     background-color: #e25822;
 }
 
-/* Technology Stack Section */
-.tech-stack {
-    margin-top: 50px;
-    color: #fff;
-}
-
-.tech-stack h2 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.tech-stack p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-}
-
-.stack {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-}
-
-.stack-item {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 1rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: #fff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-}
-
-/* Vision Section */
-.vision {
-    margin-top: 50px;
-    color: #fff;
-}
-
-.vision h2 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.vision p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    font-weight: 300;
-}
-
-
 /* Responsive Design */
 @media (max-width: 768px) {
     .home-title {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .home-subtitle {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
-    .features {
-        flex-direction: column;
-        gap: 20px;
-    }
-
+    .features,
     .reasons {
-        flex-direction: column;
-        gap: 20px;
+        flex-direction: column; /* Stack cards vertically */
+        gap: 15px; /* Spacing between stacked cards */
+        align-items: center; /* Center-align the cards vertically */
+    }
+
+    .feature,
+    .reason {
+        width: 90%; /* Take up most of the width on small screens */
+        max-width: 300px;
+        margin: 0 auto; /* Center the cards */
+    }
+
+    .btn {
+        width: 100%; /* Buttons stretch to full width */
+        text-align: center;
     }
 }
