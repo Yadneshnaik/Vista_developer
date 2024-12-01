@@ -8,11 +8,13 @@ import Contact from "./pages/Contact";
 import Header from "./pages/Header";
 import Footer from "./pages/Footer";
 import WebDevelopmentPlans from './pages/WebDevelopmentPlans';
+import OfferBanner from "./pages/OfferBanner";
 
 function App() {
   return (
     <Router>
       <Header />
+      <OfferBanner />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
