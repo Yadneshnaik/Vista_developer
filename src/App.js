@@ -9,6 +9,7 @@ import Header from "./pages/Header";
 import Footer from "./pages/Footer";
 import WebDevelopmentPlans from './pages/WebDevelopmentPlans';
 import OfferBanner from "./pages/OfferBanner";
+import ProjectPage from "./pages/ProjectPage";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/teams" element={<Teams />} />
+        <Route path="/projects" element={<ProjectPage />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/web-development-plans" element={<WebDevelopmentPlans />} />
       </Routes>
