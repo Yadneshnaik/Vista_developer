@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className="home">
             <div className="home-content text-center">
-                <h1 className="home-title">Welcome to Our IT Company</h1>
+                <h1 className="home-title">Welcome to Vista Developer</h1>
                 <p className="home-subtitle">
                     Empowering businesses with innovative IT solutions that drive success and growth.
                 </p>
@@ -47,7 +47,7 @@ const Home = () => {
 
             <div className="cta">
                 <a href="/services" className="btn btn-primary">Explore Our Services</a>
-                <a href="/contact" className="btn btn-secondary">Get In Touch</a>
+                <a href="/contact" className="btn btn-success">Get In Touch</a>
             </div>
         </div>
     );
